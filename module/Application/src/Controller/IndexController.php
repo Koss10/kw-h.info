@@ -16,6 +16,6 @@ class IndexController extends AbstractActionController
     {
         return new ViewModel();
         //from home
-        //add from work
+        //add from work 
     }
 }
