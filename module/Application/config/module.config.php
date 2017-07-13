@@ -19,18 +19,53 @@ return [
                 'options' => [
                     'route'    => '/',
                     'defaults' => [
-                        'controller' => Controller\IndexController::class,
+                        'controller' => Controller\ListController::class,
                         'action'     => 'index',
                     ],
                 ],
             ],
-            'application' => [
-                'type'    => Segment::class,
-                'options' => [
-                    'route'    => '/application[/:action]',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
+            'may_terminate' => TRUE,
+            'child_routes' => [
+                'detail' => [
+                    'type' => Segment::class,
+                    'options' => [
+                        'rpute' => ':id',
+                        'defaults' => [
+                            'action' => 'detail',
+                        ],
+                    ],
+                ],
+                'add' => [
+                    'type' => Literal::class,
+                    'options' => [
+                        'route' => '/add',
+                        'defaults' => [
+                            'controller' => Controller\WriteController::class,
+                            'action' => 'add',
+                        ],
+                    ],
+                ],
+                'edit' =>[
+                    'type' => Literal::class,
+                    'options' => [
+                        'route' => '/edit/:id',
+                        'defaults' => [
+                            'controller' => Controller\WriteController::class,
+                            'action' => 'edit',
+                        ],
+                        'constraints' => [
+                            'id' => '[1-9]\d*',
+                        ],
+                    ],
+                ],
+                'delete' => [
+                    'type' => Segment::class,
+                    'options' => [
+                        'route' => '/delete/:id',
+                        'defaults' => [
+                            'controller' => Controller\DeleteController::class,
+                            'action' => 'delete,'
+                        ],
                     ],
                 ],
             ],
@@ -38,7 +73,9 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\IndexController::class => InvokableFactory::class,
+            Controller\ListController::class => Controller\Factory\ListControllerFactory::class,
+            Controller\WriteController::class => Controller\Factory\WriteControllerFactory::class,
+            Controller\DeleteController::class => Controller\Factory\DeleteControllerFactory::class,
         ],
     ],
     'view_manager' => [
