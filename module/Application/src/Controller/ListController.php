@@ -24,7 +24,7 @@ class ListController extends AbstractActionController
         $id = $this->params()->fromRoute('id');
         try{
             $device = $this->deviceRepository->findDevice($id);
-        } catch (InvalidArgumentException $ex){
+        } catch (\InvalidArgumentException $ex){
             return $this->redirect()->toRoute('home');
         }
         return new ViewModel([
