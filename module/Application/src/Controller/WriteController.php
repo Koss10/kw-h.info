@@ -87,7 +87,7 @@ class WriteController extends AbstractActionControlller
             return $viewModel;
         }
 
-        $post = $this->command->updateDevice($device);
+        $device = $this->command->updateDevice($device);
         return $this->redirect()->toRoute(
             'home/detail',
             ['id' => $device->getId()]
