@@ -1,8 +1,21 @@
 <?php
+namespace Application\Controller\Factory;
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+use Application\Controller\WriteController;
+use Application\Form\DeviceForm;
+use Application\Model\DeviceCommandInterface;
+use Application\Model\DeviceRepositoryInterface;
+use Interop\Container\ContainerInterface;
+use Zend\ServiceManager\FactoryFactoryInterface;
 
+class WriteControllerFactory implements FactoryInterface
+{
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null) {
+        $formManager = $container->get('FormElementManager');
+        return new WriteController(
+                $container->get(DeviceCommandInterface::class),
+                $formManager->get(DeviceForm::class),
+                $container->get(DeviceRepositoryInterface::class)
+                );
+    }
+}
