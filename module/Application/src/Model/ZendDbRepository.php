@@ -9,7 +9,7 @@ use Zend\Db\Sql\Sql;
 use Zend\Db\ResultSet\HydratingResultSet;
 use Zend\Hydrator\HydrationInterface;
 
-class DeviceRepository implements DeviceRepositoryInterface
+class ZendDbRepository implements DeviceRepositoryInterface
 {
     private $db;
     private $hydrator;
