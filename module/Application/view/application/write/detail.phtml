@@ -1,0 +1,11 @@
+
+<h1 align='center'><?= $this->escapeHtml($this->post->getTitle()) ?></h1>
+<div align='center'><h3><?= $this->escapeHtml($this->post->getCategory()) ?></h3></div>
+<br><br>
+<p><?= nl2br($this->post->getText()) ?>
+<br><br>
+
+<div class="btn-group" role="group" aria-label="Post actions">
+      <a class="btn btn-xs btn-default" href="<?= $this->url('admin/edit', ['id' => $post->getId()]) ?>">Edit</a>
+      <a class="btn btn-xs btn-danger" href="<?= $this->url('admin/delete', ['id' => $post->getId()]) ?>">Delete</a>
+</div>
