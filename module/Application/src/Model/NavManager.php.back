@@ -1,0 +1,26 @@
+<?php
+namespace Application\Model;
+
+class NavManager 
+{
+    private $autoservice;
+    private $urlHelper;
+    
+    function __construct($autoservice, $urlHelper) {
+        $this->autoservice = $autoservice;
+        $this->urlHelper = $urlHelper;
+    }
+    
+    public function getMenuItems()
+    {
+        $url = $this->urlHelper;
+        $items = [];
+        $items[] = [
+            'id' => 'home',
+            'label' => 'Home',
+            'link' => $url('home')
+        ];
+        
+        //DO NOT WRITE
+    }
+}
