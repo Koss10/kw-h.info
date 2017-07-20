@@ -1,10 +1,4 @@
 <?php
-/**
- * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
- * @copyright Copyright (c) 2005-2016 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
- */
-
 namespace Application;
 
 use Zend\Router\Http\Literal;
@@ -12,6 +6,23 @@ use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
+    'service_manager' => [
+        'aliases' => [
+            Model\DeviceCommandInterface::class => Model\ZendDbCommand::class,
+            Model\DeviceRepositoryInterface::class => Model\ZendDbRepository::class,
+        ],
+        'factories' =>[
+            Model\ZendDbCommand::class => Model\Factory\ZendDbComandFactory::class,
+            Model\ZendDbRepository::class => Model\Factory\ZendDbRepositoryFactory::class,
+        ],
+    ],
+    'controllers' => [
+        'factories' => [
+            Controller\ListController::class => Controller\Factory\ListControllerFactory::class,
+            Controller\WriteController::class => Controller\Factory\WriteControllerFactory::class,
+            Controller\DeleteController::class => Controller\Factory\DeleteControllerFactory::class,
+        ],
+    ],
     'router' => [
         'routes' => [
             'home' => [
@@ -23,59 +34,52 @@ return [
                         'action'     => 'index',
                     ],
                 ],
+                'may_terminate' => TRUE,
+                'child_routes' => [
+                    'detail' => [
+                        'type' => Segment::class,
+                        'options' => [
+                            'route' => ':id',
+                            'defaults' => [
+                                'action' => 'detail',
+                            ],
+                        ],
+                    ],
+                    'add' => [
+                        'type' => Literal::class,
+                        'options' => [
+                            'route' => '/add',
+                            'defaults' => [
+                                'controller' => Controller\WriteController::class,
+                                'action' => 'add',
+                            ],
+                        ],
+                    ],
+                    'edit' =>[
+                        'type' => Literal::class,
+                        'options' => [
+                            'route' => '/edit/:id',
+                            'defaults' => [
+                                'controller' => Controller\WriteController::class,
+                                'action' => 'edit',
+                            ],
+                            'constraints' => [
+                                'id' => '[1-9]\d*',
+                            ],
+                        ],
+                    ],
+                    'delete' => [
+                        'type' => Segment::class,
+                        'options' => [
+                            'route' => '/delete/:id',
+                            'defaults' => [
+                                'controller' => Controller\DeleteController::class,
+                                'action' => 'delete,'
+                            ],
+                        ],
+                    ],
+                ],
             ],
-            'may_terminate' => TRUE,
-            'child_routes' => [
-                'detail' => [
-                    'type' => Segment::class,
-                    'options' => [
-                        'route' => ':id',
-                        'defaults' => [
-                            'action' => 'detail',
-                        ],
-                    ],
-                ],
-                'add' => [
-                    'type' => Literal::class,
-                    'options' => [
-                        'route' => '/add',
-                        'defaults' => [
-                            'controller' => Controller\WriteController::class,
-                            'action' => 'add',
-                        ],
-                    ],
-                ],
-                'edit' =>[
-                    'type' => Literal::class,
-                    'options' => [
-                        'route' => '/edit/:id',
-                        'defaults' => [
-                            'controller' => Controller\WriteController::class,
-                            'action' => 'edit',
-                        ],
-                        'constraints' => [
-                            'id' => '[1-9]\d*',
-                        ],
-                    ],
-                ],
-                'delete' => [
-                    'type' => Segment::class,
-                    'options' => [
-                        'route' => '/delete/:id',
-                        'defaults' => [
-                            'controller' => Controller\DeleteController::class,
-                            'action' => 'delete,'
-                        ],
-                    ],
-                ],
-            ],
-        ],
-    ],
-    'controllers' => [
-        'factories' => [
-            Controller\ListController::class => Controller\Factory\ListControllerFactory::class,
-            Controller\WriteController::class => Controller\Factory\WriteControllerFactory::class,
-            Controller\DeleteController::class => Controller\Factory\DeleteControllerFactory::class,
         ],
     ],
     'view_manager' => [
