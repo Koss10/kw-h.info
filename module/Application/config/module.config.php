@@ -29,7 +29,7 @@ return [
                 'detail' => [
                     'type' => Segment::class,
                     'options' => [
-                        'rpute' => ':id',
+                        'route' => ':id',
                         'defaults' => [
                             'action' => 'detail',
                         ],
