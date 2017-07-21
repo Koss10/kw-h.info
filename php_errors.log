@@ -311,3 +311,45 @@ Stack trace:
 #2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
 #3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
 #4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[20-Jul-2017 20:13:26 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[20-Jul-2017 20:14:25 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[21-Jul-2017 13:03:57 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[21-Jul-2017 13:04:41 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[21-Jul-2017 13:28:50 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[21-Jul-2017 13:30:35 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
