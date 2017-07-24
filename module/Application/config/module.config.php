@@ -6,6 +6,10 @@ use Zend\Router\Http\Segment;
 
 return [
     'service_manager' => [
+	'aliases' => [
+            Model\DeviceCommandInterface::class => Model\ZendDbCommand::class,
+            Model\DeviceRepositoryInterface::class => Model\ZendDbRepository::class,
+        ],
         'factories' =>[
             Model\ZendDbCommand::class => Model\Factory\ZendDbCommandFactory::class,
             Model\ZendDbRepository::class => Model\Factory\ZendDbRepositoryFactory::class,
