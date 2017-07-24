@@ -16,7 +16,7 @@ class WriteControllerFactory implements FactoryInterface
         return new WriteController(
             $container->get(DeviceCommandInterface::class),
             $formManager->get(DeviceForm::class),
-			$container->get(DeviceRepositoryInterface::class)
+            $container->get(DeviceRepositoryInterface::class)
         );
     }
 }
