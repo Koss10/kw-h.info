@@ -17,9 +17,9 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\ListController::class => Controller\Factory\ListControllerFactory::class,
-            Controller\WriteController::class => Controller\Factory\WriteControllerFactory::class,
-            Controller\DeleteController::class => Controller\Factory\DeleteControllerFactory::class,
+            Controller\ListController::class    => Controller\Factory\ListControllerFactory::class,
+            Controller\WriteController::class   => Controller\Factory\WriteControllerFactory::class,
+            Controller\DeleteController::class  => Controller\Factory\DeleteControllerFactory::class,
         ],
     ],
     'router' => [
