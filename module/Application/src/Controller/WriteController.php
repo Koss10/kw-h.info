@@ -6,10 +6,10 @@ use Application\Model\Device;
 use Application\Mpdel\DeviceCommandInterface;
 use Applicatio\Model\DeviceRepositoryInterface;
 use InvalidArgumentException;
-use Zend\MVC\Controller\AbstractActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class WriteController extends AbstractActionControlller
+class WriteController extends AbstractActionController
 {
     private $command;
     private $form;

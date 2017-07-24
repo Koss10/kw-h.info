@@ -6,12 +6,8 @@ use Zend\Router\Http\Segment;
 
 return [
     'service_manager' => [
-        'aliases' => [
-            Model\DeviceCommandInterface::class => Model\ZendDbCommand::class,
-            Model\DeviceRepositoryInterface::class => Model\ZendDbRepository::class,
-        ],
         'factories' =>[
-            Model\ZendDbCommand::class => Model\Factory\ZendDbComandFactory::class,
+            Model\ZendDbCommand::class => Model\Factory\ZendDbCommandFactory::class,
             Model\ZendDbRepository::class => Model\Factory\ZendDbRepositoryFactory::class,
         ],
     ],
@@ -27,13 +23,13 @@ return [
             'home' => [
                 'type' => Literal::class,
                 'options' => [
-                    'route'    => '/',
+                    'route' => '/',
                     'defaults' => [
-                        'controller' => Controller\ListController::class,
-                        'action'     => 'index',
+                        'controller' => Controller\WriteController::class,
+                        'action' => 'index',
                     ],
                 ],
-                'may_terminate' => TRUE,
+                'may_terminate' => true,
                 'child_routes' => [
                     'detail' => [
                         'type' => Segment::class,
@@ -42,22 +38,25 @@ return [
                             'defaults' => [
                                 'action' => 'detail',
                             ],
+                            'constraints' => [
+                                'id' => '[1-9]\d*',
+                            ],
                         ],
                     ],
                     'add' => [
                         'type' => Literal::class,
                         'options' => [
-                            'route' => '/add',
+                            'route' => 'add',
                             'defaults' => [
                                 'controller' => Controller\WriteController::class,
                                 'action' => 'add',
                             ],
                         ],
                     ],
-                    'edit' =>[
-                        'type' => Literal::class,
+                    'edit' => [
+                        'type' => Segment::class,
                         'options' => [
-                            'route' => '/edit/:id',
+                            'route' => 'edit/:id',
                             'defaults' => [
                                 'controller' => Controller\WriteController::class,
                                 'action' => 'edit',
@@ -70,10 +69,13 @@ return [
                     'delete' => [
                         'type' => Segment::class,
                         'options' => [
-                            'route' => '/delete/:id',
+                            'route' => 'delete/:id',
                             'defaults' => [
                                 'controller' => Controller\DeleteController::class,
                                 'action' => 'delete',
+                            ],
+                            'constraints' => [
+                                'id' => '[1-9]\d*',
                             ],
                         ],
                     ],

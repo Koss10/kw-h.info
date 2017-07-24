@@ -13,7 +13,7 @@ class ZendDbCommand implements DeviceCommandInterface
 {
     private $db;
     
-    function __construct($db) {
+    function __construct(AdapterInterface $db) {
         $this->db = $db;
     }
     

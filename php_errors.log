@@ -353,3 +353,417 @@ Stack trace:
 #2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
 #3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
 #4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 08:22:19 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 08:33:20 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 08:51:28 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 08:57:29 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:00:13 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:01:42 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:38:38 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:43:18 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:43:53 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:44:22 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:44:23 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:46:59 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:47:17 UTC] PHP Fatal error:  Uncaught Zend\ServiceManager\Exception\ServiceNotFoundException: Unable to resolve service "Zend\Session\SessionManager" to a factory; are you certain you provided it during configuration? in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:681
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(757): Zend\ServiceManager\ServiceManager->getFactory('Zend\\Session\\Se...')
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(200): Zend\ServiceManager\ServiceManager->doCreate('Zend\\Session\\Se...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Module.php(33): Zend\ServiceManager\ServiceManager->get('Zend\\Session\\Se...')
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(3 in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 681
+[24-Jul-2017 09:49:50 UTC] PHP Fatal error:  Uncaught Zend\Router\Exception\InvalidArgumentException: Route definition must be an array or Traversable object in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php:178
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(151): Zend\Router\Http\TreeRouteStack->routeFromArray(true)
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(142): Zend\Router\Http\TreeRouteStack->addRoute('may_terminate', true)
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\SimpleRouteStack.php(86): Zend\Router\SimpleRouteStack->addRoutes(Array)
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-router\src\Http\TreeRouteStack.php(70): Zend\Router\SimpleRouteStack::factory(Array)
+#4 [internal function]: Zend\Router\Http\TreeRouteSt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 765
+[24-Jul-2017 09:52:22 UTC] PHP Fatal error:  Uncaught Zend\ServiceManager\Exception\ServiceNotFoundException: Unable to resolve service "Zend\Session\SessionManager" to a factory; are you certain you provided it during configuration? in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:681
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(757): Zend\ServiceManager\ServiceManager->getFactory('Zend\\Session\\Se...')
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(200): Zend\ServiceManager\ServiceManager->doCreate('Zend\\Session\\Se...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Module.php(33): Zend\ServiceManager\ServiceManager->get('Zend\\Session\\Se...')
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(3 in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 681
+[24-Jul-2017 10:25:27 UTC] PHP Fatal error:  Uncaught Zend\ServiceManager\Exception\ServiceNotFoundException: Unable to resolve service "Zend\Session\SessionManager" to a factory; are you certain you provided it during configuration? in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:681
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(757): Zend\ServiceManager\ServiceManager->getFactory('Zend\\Session\\Se...')
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php(200): Zend\ServiceManager\ServiceManager->doCreate('Zend\\Session\\Se...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Module.php(27): Zend\ServiceManager\ServiceManager->get('Zend\\Session\\Se...')
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(3 in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php on line 681
+[24-Jul-2017 10:26:52 UTC] PHP Fatal error:  Interface 'Application\Controller\Factory\FactoryInterface' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php on line 11
+[24-Jul-2017 10:26:52 UTC] PHP Stack trace:
+[24-Jul-2017 10:26:52 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:26:52 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:26:52 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:26:52 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:26:52 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:26:52 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:26:52 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:26:52 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:26:52 UTC] PHP   9. Zend\Mvc\Controller\ControllerManager->getFactory() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:757
+[24-Jul-2017 10:26:52 UTC] PHP  10. class_exists() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:26:52 UTC] PHP  11. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:26:52 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:26:52 UTC] PHP  13. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:26:52 UTC] PHP  14. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:27:08 UTC] PHP Fatal error:  Interface 'Application\Controller\Factory\FactoryInterface' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php on line 11
+[24-Jul-2017 10:27:08 UTC] PHP Stack trace:
+[24-Jul-2017 10:27:08 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:27:08 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:27:08 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:27:08 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:27:08 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:27:08 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:27:08 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:27:08 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:27:08 UTC] PHP   9. Zend\Mvc\Controller\ControllerManager->getFactory() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:757
+[24-Jul-2017 10:27:08 UTC] PHP  10. class_exists() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:27:08 UTC] PHP  11. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:27:08 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:662
+[24-Jul-2017 10:27:08 UTC] PHP  13. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:27:08 UTC] PHP  14. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:29:03 UTC] PHP Fatal error:  Class 'Application\Controller\AbstractActionControlller' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:29:03 UTC] PHP Stack trace:
+[24-Jul-2017 10:29:03 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:29:03 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:29:03 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:29:03 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:29:03 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:29:03 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:29:03 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:29:03 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:29:03 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:29:03 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:29:03 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:29:03 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:29:03 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:29:51 UTC] PHP Fatal error:  Class 'Application\Controller\AbstractActionControlller' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:29:51 UTC] PHP Stack trace:
+[24-Jul-2017 10:29:51 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:29:51 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:29:51 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:29:51 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:29:51 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:29:51 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:29:51 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:29:51 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:29:51 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:29:51 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:29:51 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:29:51 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:29:51 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:30:45 UTC] PHP Fatal error:  Class 'Application\Controller\AbstractActionControlller' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:30:45 UTC] PHP Stack trace:
+[24-Jul-2017 10:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:30:45 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:30:45 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:30:45 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:30:45 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:30:45 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:30:45 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:30:45 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:30:45 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:32:05 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:32:05 UTC] PHP Stack trace:
+[24-Jul-2017 10:32:05 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:32:05 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:32:05 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:32:05 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:32:05 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:32:05 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:32:05 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:32:05 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:32:05 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:32:05 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:32:05 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:32:05 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:32:05 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:35:08 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:35:08 UTC] PHP Stack trace:
+[24-Jul-2017 10:35:08 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:35:08 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:35:08 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:35:08 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:35:08 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:35:08 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:35:08 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:35:08 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:35:08 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:35:08 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:35:08 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:35:08 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:35:08 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:39:58 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (ZendDeveloperTools) could not be initialized. in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php:203
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('ZendDeveloperTo...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(171): Zend\EventMa in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php on line 203
+[24-Jul-2017 10:40:04 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (ZendDeveloperTools) could not be initialized. in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php:203
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('ZendDeveloperTo...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(171): Zend\EventMa in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php on line 203
+[24-Jul-2017 10:40:07 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (ZendDeveloperTools) could not be initialized. in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php:203
+Stack trace:
+#0 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('ZendDeveloperTo...')
+#2 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php(171): Zend\EventMa in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-modulemanager\src\ModuleManager.php on line 203
+[24-Jul-2017 10:41:53 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:41:53 UTC] PHP Stack trace:
+[24-Jul-2017 10:41:53 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:41:53 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:41:53 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:41:53 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:41:53 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:41:53 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:41:53 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:41:53 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:41:53 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:41:53 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:41:53 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:41:53 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:41:53 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:51 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:51 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:51 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:51 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:51 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:51 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:51 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:51 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:51 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:51 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:51 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:51 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:51 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:51 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:51 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:53 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:53 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:53 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:53 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:53 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:53 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:53 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:53 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:53 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:53 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:53 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:53 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:53 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:53 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:53 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:54 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:54 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:54 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:54 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:54 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:54 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:54 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:54 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:54 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:54 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:54 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:54 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:54 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:54 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:54 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:55 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:55 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:55 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:55 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:55 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:55 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:55 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:55 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:55 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:55 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:55 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:55 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:55 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:55 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:55 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:57 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:57 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:57 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:57 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:57 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:57 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:57 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:57 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:57 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:57 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:57 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:57 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:57 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:57 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:57 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:58 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:58 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:58 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:58 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:58 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:58 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:58 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:58 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:58 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:58 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:58 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:58 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:58 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:58 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:58 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:42:59 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:42:59 UTC] PHP Stack trace:
+[24-Jul-2017 10:42:59 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:42:59 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:42:59 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:42:59 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:42:59 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:42:59 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:42:59 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:42:59 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:42:59 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:42:59 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:59 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:42:59 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:42:59 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:46:07 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:46:07 UTC] PHP Stack trace:
+[24-Jul-2017 10:46:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:46:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:46:07 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:46:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:46:07 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:46:07 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:46:07 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:46:07 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:46:07 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:46:07 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:07 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:07 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:46:07 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:46:10 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:46:10 UTC] PHP Stack trace:
+[24-Jul-2017 10:46:10 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:46:10 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:46:10 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:46:10 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:46:10 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:46:10 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:46:10 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:46:10 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:46:10 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:46:10 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:10 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:10 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:46:10 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:46:11 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:46:11 UTC] PHP Stack trace:
+[24-Jul-2017 10:46:11 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:46:11 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:46:11 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:46:11 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:46:11 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:46:11 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:46:11 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:46:11 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:46:11 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:46:11 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:11 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:11 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:46:11 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[24-Jul-2017 10:46:40 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php on line 12
+[24-Jul-2017 10:46:40 UTC] PHP Stack trace:
+[24-Jul-2017 10:46:40 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[24-Jul-2017 10:46:40 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[24-Jul-2017 10:46:40 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[24-Jul-2017 10:46:40 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[24-Jul-2017 10:46:40 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[24-Jul-2017 10:46:40 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[24-Jul-2017 10:46:40 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[24-Jul-2017 10:46:40 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[24-Jul-2017 10:46:40 UTC] PHP   9. Application\Controller\Factory\WriteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[24-Jul-2017 10:46:40 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:40 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
+[24-Jul-2017 10:46:40 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[24-Jul-2017 10:46:40 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
