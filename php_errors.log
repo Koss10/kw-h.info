@@ -767,3 +767,29 @@ Stack trace:
 [24-Jul-2017 10:46:40 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\WriteControllerFactory.php:15
 [24-Jul-2017 10:46:40 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
 [24-Jul-2017 10:46:40 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[25-Jul-2017 07:47:01 UTC] PHP Notice:  Undefined variable: tmt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 07:47:01 UTC] PHP Stack trace:
+[25-Jul-2017 07:47:01 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 07:47:01 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 07:47:01 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 07:47:01 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 07:47:01 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 07:47:01 UTC] PHP   6. Application\Controller\ListController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 07:47:01 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 07:47:01 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 07:47:01 UTC] PHP   9. Application\Controller\ListController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 07:47:01 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 07:47:01 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 07:47:09 UTC] PHP Notice:  Undefined variable: tmt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 07:47:09 UTC] PHP Stack trace:
+[25-Jul-2017 07:47:09 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 07:47:09 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 07:47:09 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 07:47:09 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 07:47:09 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 07:47:09 UTC] PHP   6. Application\Controller\ListController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 07:47:09 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 07:47:09 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 07:47:09 UTC] PHP   9. Application\Controller\ListController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 07:47:09 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 07:47:09 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19

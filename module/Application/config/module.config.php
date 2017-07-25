@@ -10,9 +10,9 @@ return [
             Model\DeviceCommandInterface::class => Model\ZendDbCommand::class,
             Model\DeviceRepositoryInterface::class => Model\ZendDbRepository::class,
         ],
-        'factories' =>[
-            Model\ZendDbCommand::class => Model\Factory\ZendDbCommandFactory::class,
+        'factories' => [
             Model\ZendDbRepository::class => Model\Factory\ZendDbRepositoryFactory::class,
+            Model\ZendDbCommand::class => Model\Factory\ZendDbCommandFactory::class,
         ],
     ],
     'controllers' => [
