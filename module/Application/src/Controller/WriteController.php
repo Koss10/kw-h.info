@@ -19,7 +19,7 @@ class WriteController extends AbstractActionController
         DeviceCommandInterface $command,
         DeviceForm $form,
         DeviceRepositoryInterface $repository) 
-	{
+    {
         $this->command = $command;
         $this->form = $form;
         $this->repository = $repository;
@@ -39,7 +39,7 @@ class WriteController extends AbstractActionController
 		try{
 			$device = $this->repository->findDevice($id);
 		} catch(\InvalidArgumentException $ex){
-			return $this->redirect()->toRoute('home');
+			return $this->redirect()->toRoute('admin');
 		}
 		
 		return new ViewModel([
@@ -73,22 +73,22 @@ class WriteController extends AbstractActionController
 		}
 
 		return $this->redirect()->toRoute(
-			'home/detail',
+			'admin/detail',
 			['id' => $device->getId()]
 		);
     }
 	
-	 public function editAction()
+    public function editAction()
     {
         $id = $this->params()->fromRoute('id');
         if (! $id) {
-            return $this->redirect()->toRoute('home');
+            return $this->redirect()->toRoute('admin');
         }
 
         try {
             $device = $this->repository->findDevice($id);
         } catch (InvalidArgumentException $ex) {
-            return $this->redirect()->toRoute('home');
+            return $this->redirect()->toRoute('admin');
         }
 
         $this->form->bind($device);
@@ -107,7 +107,7 @@ class WriteController extends AbstractActionController
 
         $device = $this->command->updateDevice($device);
         return $this->redirect()->toRoute(
-            'home/detail',
+            'admin/detail',
             ['id' => $device->getId()]
         );
     }
