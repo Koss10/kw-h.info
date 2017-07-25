@@ -17,9 +17,9 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\ListController::class    => Controller\Factory\ListControllerFactory::class,
-            Controller\WriteController::class   => Controller\Factory\WriteControllerFactory::class,
-            Controller\DeleteController::class  => Controller\Factory\DeleteControllerFactory::class,
+            Controller\ListController::class => Controller\Factory\ListControllerFactory::class,
+            Controller\WriteController::class => Controller\Factory\WriteControllerFactory::class,
+            Controller\DeleteController::class => Controller\Factory\DeleteControllerFactory::class,
         ],
     ],
     'router' => [
@@ -29,7 +29,7 @@ return [
                 'options' => [
                     'route' => '/',
                     'defaults' => [
-                        'controller' => Controller\WriteController::class,
+                        'controller' => Controller\ListController::class,
                         'action' => 'index',
                     ],
                 ],
@@ -47,10 +47,35 @@ return [
                             ],
                         ],
                     ],
+                ],
+            ],
+            'admin' => [
+                'type' => Literal::class,
+                'options' => [
+                    'route' => '/admin',
+                    'defaults' => [
+                        'controller' => Controller\WriteController::class,
+                        'action' => 'index',
+                    ],
+                ],
+                'may_terminate' => true,
+                'child_routes' => [
+                    'detail' => [
+                        'type' => Segment::class,
+                        'options' => [
+                            'route' => '/:id',
+                            'defaults' => [
+                                'action' => 'detail',
+                            ],
+                            'constraints' => [
+                                'id' => '[1-9]\d*',
+                            ],
+                        ],
+                    ],
                     'add' => [
                         'type' => Literal::class,
                         'options' => [
-                            'route' => 'add',
+                            'route' => '/add',
                             'defaults' => [
                                 'controller' => Controller\WriteController::class,
                                 'action' => 'add',
@@ -60,7 +85,7 @@ return [
                     'edit' => [
                         'type' => Segment::class,
                         'options' => [
-                            'route' => 'edit/:id',
+                            'route' => '/edit/:id',
                             'defaults' => [
                                 'controller' => Controller\WriteController::class,
                                 'action' => 'edit',
@@ -73,7 +98,7 @@ return [
                     'delete' => [
                         'type' => Segment::class,
                         'options' => [
-                            'route' => 'delete/:id',
+                            'route' => '/delete/:id',
                             'defaults' => [
                                 'controller' => Controller\DeleteController::class,
                                 'action' => 'delete',
