@@ -4,7 +4,7 @@ namespace Application\Model;
 use InvalidArgumentException;
 use RuntimeException;
 use Zend\Db\Adapter\AdapterInterface;
-use Zend\Db\Adapter\Driver\ResulInterface;
+use Zend\Db\Adapter\Driver\ResultInterface;
 use Zend\Db\Sql\Sql;
 use Zend\Db\ResultSet\HydratingResultSet;
 use Zend\Hydrator\HydrationInterface;
@@ -15,7 +15,7 @@ class ZendDbRepository implements DeviceRepositoryInterface
     private $hydrator;
     private $devicePrototype;
             
-    function __construct($db, $hydrator, $devicePrototype) {
+    function __construct(AdapterInterface $db, HydrationInterface $hydrator, Device $devicePrototype) {
         $this->db = $db;
         $this->hydrator = $hydrator;
         $this->devicePrototype = $devicePrototype;
@@ -25,7 +25,7 @@ class ZendDbRepository implements DeviceRepositoryInterface
         $sql = new Sql($this->db);
         $select = $sql->select('t_catalog');
         $stmt = $sql->prepareStatementForSqlObject($select);
-        $result = $tmt->execute();
+        $result = $stmt->execute();
         
         if(! $result instanceof ResultInterface || ! $result->isQueryResult()) {
             return[];

@@ -793,3 +793,519 @@ Stack trace:
 [25-Jul-2017 07:47:09 UTC] PHP   9. Application\Controller\ListController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
 [25-Jul-2017 07:47:09 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
 [25-Jul-2017 07:47:09 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 08:12:11 UTC] PHP Notice:  Undefined variable: tmt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 08:12:11 UTC] PHP Stack trace:
+[25-Jul-2017 08:12:11 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:12:11 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:12:11 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:12:11 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:12:11 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:12:11 UTC] PHP   6. Application\Controller\ListController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 08:12:11 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 08:12:11 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:12:11 UTC] PHP   9. Application\Controller\ListController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:12:11 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 08:12:11 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 08:15:13 UTC] PHP Notice:  Undefined variable: tmt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 08:15:13 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:13 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:13 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:13 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:13 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:13 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:13 UTC] PHP   6. Application\Controller\ListController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 08:15:13 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 08:15:13 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:13 UTC] PHP   9. Application\Controller\ListController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:13 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 08:15:13 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 08:15:49 UTC] PHP Notice:  Undefined property: Zend\Mvc\DispatchListener::$db in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php on line 140
+[25-Jul-2017 08:15:49 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:49 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:49 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:49 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:49 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:49 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:49 UTC] PHP Notice:  Undefined property: Zend\Mvc\DispatchListener::$db in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php on line 140
+[25-Jul-2017 08:15:49 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:49 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:49 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:49 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:49 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:49 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:53 UTC] PHP Notice:  Undefined property: Zend\Mvc\DispatchListener::$db in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php on line 140
+[25-Jul-2017 08:15:53 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:53 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:53 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:53 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:53 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:53 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:53 UTC] PHP Notice:  Undefined property: Zend\Mvc\DispatchListener::$db in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php on line 140
+[25-Jul-2017 08:15:53 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:53 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:53 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:53 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:53 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:53 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:15:56 UTC] PHP Notice:  Undefined property: Application\Controller\ListController::$setEvent in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php on line 140
+[25-Jul-2017 08:15:56 UTC] PHP Stack trace:
+[25-Jul-2017 08:15:56 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:15:56 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:15:56 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:15:56 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:15:56 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:17:22 UTC] PHP Notice:  Undefined variable: tmt in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 08:17:22 UTC] PHP Stack trace:
+[25-Jul-2017 08:17:22 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:17:22 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:17:22 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:17:22 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:17:22 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:17:22 UTC] PHP   6. Application\Controller\ListController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 08:17:22 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 08:17:22 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:17:22 UTC] PHP   9. Application\Controller\ListController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:17:22 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 08:17:22 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 08:19:08 UTC] PHP Notice:  Undefined variable: posts in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 5
+[25-Jul-2017 08:19:08 UTC] PHP Stack trace:
+[25-Jul-2017 08:19:08 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:19:08 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:19:08 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 08:19:08 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 08:19:08 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 08:19:08 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:19:08 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 08:19:08 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 08:19:08 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 08:19:08 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 08:19:08 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 08:19:33 UTC] PHP Notice:  Undefined variable: posts in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 5
+[25-Jul-2017 08:19:33 UTC] PHP Stack trace:
+[25-Jul-2017 08:19:33 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:19:33 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:19:33 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 08:19:33 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 08:19:33 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 08:19:33 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:19:33 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 08:19:33 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 08:19:33 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 08:19:33 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 08:19:33 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 08:29:14 UTC] PHP Notice:  Undefined variable: posts in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 5
+[25-Jul-2017 08:29:14 UTC] PHP Stack trace:
+[25-Jul-2017 08:29:14 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:29:14 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:29:14 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 08:29:14 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 08:29:14 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 08:29:14 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:29:14 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 08:29:14 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 08:29:14 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 08:29:14 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 08:29:14 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 08:35:16 UTC] PHP Notice:  Undefined variable: posts in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 5
+[25-Jul-2017 08:35:16 UTC] PHP Stack trace:
+[25-Jul-2017 08:35:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:35:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:35:16 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 08:35:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 08:35:16 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 08:35:16 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:35:16 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 08:35:16 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 08:35:16 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 08:35:16 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 08:35:16 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 08:57:24 UTC] PHP Notice:  Undefined property: Zend\Db\Sql\Sql::$prepareStatementForSqlObject in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbRepository.php on line 28
+[25-Jul-2017 08:57:24 UTC] PHP Stack trace:
+[25-Jul-2017 08:57:24 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 08:57:24 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 08:57:24 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[25-Jul-2017 08:57:24 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:57:24 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:57:24 UTC] PHP   6. Application\Controller\ListController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[25-Jul-2017 08:57:24 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[25-Jul-2017 08:57:24 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[25-Jul-2017 08:57:24 UTC] PHP   9. Application\Controller\ListController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 08:57:24 UTC] PHP  10. Application\Controller\ListController->indexAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[25-Jul-2017 08:57:24 UTC] PHP  11. Application\Model\ZendDbRepository->findAllDevices() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\ListController.php:19
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:31:07 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:31:07 UTC] PHP Stack trace:
+[25-Jul-2017 10:31:07 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:31:07 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:31:07 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:31:07 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:31:07 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:31:07 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:31:07 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:31:07 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:31:07 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:31:07 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:31:07 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:32:55 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:32:55 UTC] PHP Stack trace:
+[25-Jul-2017 10:32:55 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:32:55 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:32:55 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:32:55 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:32:55 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:32:55 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:32:55 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:32:55 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:32:55 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:32:55 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:32:55 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:32:55 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:32:55 UTC] PHP Stack trace:
+[25-Jul-2017 10:32:55 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:32:55 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:32:55 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:32:55 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:32:55 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:32:55 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:32:55 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:32:55 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:32:55 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:32:55 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:32:55 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:32:55 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:32:55 UTC] PHP Stack trace:
+[25-Jul-2017 10:32:55 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:32:55 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:32:55 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:32:55 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:32:55 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:32:55 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:32:55 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:32:55 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:32:55 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:32:55 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:32:55 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:32:55 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:32:55 UTC] PHP Stack trace:
+[25-Jul-2017 10:32:55 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:32:55 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:32:55 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:32:55 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:32:55 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:32:55 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:32:55 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:32:55 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:32:55 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:32:55 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:32:55 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:36:39 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:36:39 UTC] PHP Stack trace:
+[25-Jul-2017 10:36:39 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:36:39 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:36:39 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:36:39 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:36:39 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:36:39 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:36:39 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:36:39 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:36:39 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:36:39 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:36:39 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:36:39 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:36:39 UTC] PHP Stack trace:
+[25-Jul-2017 10:36:39 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:36:39 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:36:39 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:36:39 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:36:39 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:36:39 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:36:39 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:36:39 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:36:39 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:36:39 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:36:39 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:36:39 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:36:39 UTC] PHP Stack trace:
+[25-Jul-2017 10:36:39 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:36:39 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:36:39 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:36:39 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:36:39 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:36:39 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:36:39 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:36:39 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:36:39 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:36:39 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:36:39 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 10:36:39 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 10:36:39 UTC] PHP Stack trace:
+[25-Jul-2017 10:36:39 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 10:36:39 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 10:36:39 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 10:36:39 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 10:36:39 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 10:36:39 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 10:36:39 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 10:36:39 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 10:36:39 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 10:36:39 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 10:36:39 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:02:30 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 11:02:30 UTC] PHP Stack trace:
+[25-Jul-2017 11:02:30 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:02:30 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:02:30 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:02:30 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:02:30 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:02:30 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:02:30 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:02:30 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:02:30 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:02:30 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:02:30 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:02:30 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 11:02:30 UTC] PHP Stack trace:
+[25-Jul-2017 11:02:30 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:02:30 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:02:30 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:02:30 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:02:30 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:02:30 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:02:30 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:02:30 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:02:30 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:02:30 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:02:30 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:02:30 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 11:02:30 UTC] PHP Stack trace:
+[25-Jul-2017 11:02:30 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:02:30 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:02:30 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:02:30 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:02:30 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:02:30 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:02:30 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:02:30 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:02:30 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:02:30 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:02:30 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:02:30 UTC] PHP Notice:  Undefined index: title in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\index.phtml on line 16
+[25-Jul-2017 11:02:30 UTC] PHP Stack trace:
+[25-Jul-2017 11:02:30 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:02:30 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:02:30 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:02:30 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:02:30 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:02:30 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:02:30 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:02:30 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:02:30 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:02:30 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:02:30 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:13:15 UTC] PHP Notice:  Undefined variable: post in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\detail.phtml on line 14
+[25-Jul-2017 11:13:15 UTC] PHP Stack trace:
+[25-Jul-2017 11:13:15 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:13:15 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:13:15 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:13:15 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:13:15 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:13:15 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:13:15 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:13:15 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:13:15 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:13:15 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:13:15 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[25-Jul-2017 11:14:04 UTC] PHP Notice:  Undefined variable: post in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\list\detail.phtml on line 14
+[25-Jul-2017 11:14:04 UTC] PHP Stack trace:
+[25-Jul-2017 11:14:04 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[25-Jul-2017 11:14:04 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[25-Jul-2017 11:14:04 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[25-Jul-2017 11:14:04 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[25-Jul-2017 11:14:04 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[25-Jul-2017 11:14:04 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[25-Jul-2017 11:14:04 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[25-Jul-2017 11:14:04 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[25-Jul-2017 11:14:04 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[25-Jul-2017 11:14:04 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[25-Jul-2017 11:14:04 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505

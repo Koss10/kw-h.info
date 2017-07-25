@@ -9,7 +9,7 @@ class DeviceFieldset extends Fieldset
 {
     public function init() {
         $this->setHydrator(new ReflectionHydrator());
-		$this->setObject(new Device('', '', '','', '', '',''));
+		$this->setObject(new Device('', '', '','', '', '','',''));
 		
         $this->add([
             'type' => 'hidden',
@@ -20,7 +20,7 @@ class DeviceFieldset extends Fieldset
             'type' => 'text',
             'name' => 'model',
             'options' => [
-                'label' => 'Device Title',
+                'label' => 'Device Model',
             ],
         ]);
 		

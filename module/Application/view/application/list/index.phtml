@@ -1,19 +1,19 @@
-<h2>Инструкции по платформам VAS SP</h2>
+<h3>Каталог товаров</h3>
 
 <div class="list-group">
 <?php
-	$arr = $posts->toArray();
+	$arr = $devices->toArray();
 	$categories = [];
-	foreach ($arr as $post){ 
-		$category = $post['category']; 
+	foreach ($arr as $device){ 
+		$category = $device['category']; 
 		if(! in_array($category, $categories)){
 			array_push($categories, $category)?>
 			<details>
-				<summary><?= $post['category']?></summary>
-				<?php	foreach ($arr as $post){  
-							if($post['category'] == $category){ ?>
-								<a href="<?= $this->url('home/detail', ['id' => $post['id']]) ?>">
-									<?= $post['title'] ?><br/>
+				<summary><?= $device['category']?></summary>
+				<?php	foreach ($arr as $device){  
+							if($device['category'] == $category){ ?>
+								<a href="<?= $this->url('home/detail', ['id' => $device['id']]) ?>">
+									<?= $device['model'] ?><br/>
 								</a>
 							<?php	} ?>
 				<?php } ?>

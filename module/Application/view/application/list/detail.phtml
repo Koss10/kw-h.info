@@ -1,13 +1,11 @@
-
-<h1 align='center'><?= $this->escapeHtml($this->post->getTitle()) ?></h1>
-<div align='center'><h3><?= $this->escapeHtml($this->post->getCategory()) ?></h3></div>
+<h1 align='center'><?= $this->escapeHtml($this->device->getModel()) ?></h1>
+<div align='center'><h3><?= $this->escapeHtml($this->device->getCategory()) ?></h3></div>
 <br><br>
-<p><?= nl2br($this->post->getText()) ?>
+<pre>
+<br/>Производитель: <?= nl2br($this->device->getManufacturer()) ?>
+<br/>Мощность:      <?= nl2br($this->device->getPower()) ?> Вт.
+дата выпуска:  <?= nl2br($this->device->getRelease_date()) ?>г.
+Свойства:      <?= nl2br($this->device->getProperty()) ?>
+<br/>Описание:      <?= nl2br($this->device->getDescription()) ?>
+</pre>
 <br><br>
-
-<!--
-<div class="btn-group" role="group" aria-label="Post actions">
-      <a class="btn btn-xs btn-default" href="<?= $this->url('admin/edit', ['id' => $post->getId()]) ?>">Edit</a>
-      <a class="btn btn-xs btn-danger" href="<?= $this->url('admin/delete', ['id' => $post->getId()]) ?>">Delete</a>
-</div>
--->
