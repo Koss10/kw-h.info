@@ -90,14 +90,13 @@ class Device
     public function toArray()
     {
         return array(
-            'id'            => $id,
-            'category'      => $category,
-            'model'         => $model,
-            'manufacturer'  => $manufacturer,
-            'power'         => $power,
-            'release_date'  => $release_date,
-            'property'      => $property,
-            'description'   => $description
+            'category'      => $this->category,
+            'model'         => $this->model,
+            'manufacturer'  => $this->manufacturer,
+            'power'         => $this->power,
+            'release_date'  => $this->release_date,
+            'property'      => $this->property,
+            'description'   => $this->description
         );
     }
 

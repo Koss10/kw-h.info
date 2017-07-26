@@ -1,9 +1,9 @@
-<h1>Edit instruction</h1>
+<h1>Edit device parameters</h1>
 
 <?php
 $form = $this->form;
 $form->setAttribute('action', $this->url('admin/edit', [], true));
 echo $this->partial('application/write/form', [
     'form' => $form,
-    'submitLabel' => 'Update instruction',
+    'submitLabel' => 'Update device',
 ]);

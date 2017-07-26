@@ -1,5 +1,4 @@
 <?php
-
 namespace Application\Controller\Factory;
 
 use Application\Controller\WriteController;

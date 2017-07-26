@@ -1309,3 +1309,781 @@ Stack trace:
 [25-Jul-2017 11:14:04 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
 [25-Jul-2017 11:14:04 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
 [25-Jul-2017 11:14:04 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[26-Jul-2017 06:50:02 UTC] PHP Notice:  Undefined variable: post in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\write\detail.phtml on line 14
+[26-Jul-2017 06:50:02 UTC] PHP Stack trace:
+[26-Jul-2017 06:50:02 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 06:50:02 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 06:50:02 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[26-Jul-2017 06:50:02 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[26-Jul-2017 06:50:02 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[26-Jul-2017 06:50:02 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 06:50:02 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[26-Jul-2017 06:50:02 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[26-Jul-2017 06:50:02 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[26-Jul-2017 06:50:02 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[26-Jul-2017 06:50:02 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[26-Jul-2017 07:03:38 UTC] PHP Notice:  Undefined variable: post in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\write\detail.phtml on line 14
+[26-Jul-2017 07:03:38 UTC] PHP Stack trace:
+[26-Jul-2017 07:03:38 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:03:38 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:03:38 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[26-Jul-2017 07:03:38 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[26-Jul-2017 07:03:38 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[26-Jul-2017 07:03:38 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:03:38 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[26-Jul-2017 07:03:38 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[26-Jul-2017 07:03:38 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[26-Jul-2017 07:03:38 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[26-Jul-2017 07:03:38 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[26-Jul-2017 07:05:14 UTC] PHP Notice:  Undefined variable: post in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\view\application\write\detail.phtml on line 14
+[26-Jul-2017 07:05:14 UTC] PHP Stack trace:
+[26-Jul-2017 07:05:14 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:05:14 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:05:14 UTC] PHP   3. Zend\Mvc\Application->completeRequest() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:348
+[26-Jul-2017 07:05:14 UTC] PHP   4. Zend\EventManager\EventManager->triggerEvent() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:367
+[26-Jul-2017 07:05:14 UTC] PHP   5. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:171
+[26-Jul-2017 07:05:14 UTC] PHP   6. Zend\Mvc\View\Http\DefaultRenderingStrategy->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:05:14 UTC] PHP   7. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\View\Http\DefaultRenderingStrategy.php:105
+[26-Jul-2017 07:05:14 UTC] PHP   8. Zend\View\View->renderChildren() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:200
+[26-Jul-2017 07:05:14 UTC] PHP   9. Zend\View\View->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:236
+[26-Jul-2017 07:05:14 UTC] PHP  10. Zend\View\Renderer\PhpRenderer->render() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\View.php:207
+[26-Jul-2017 07:05:14 UTC] PHP  11. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-view\src\Renderer\PhpRenderer.php:505
+[26-Jul-2017 07:18:53 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 07:18:53 UTC] PHP Stack trace:
+[26-Jul-2017 07:18:53 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:18:53 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:18:53 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:18:53 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:18:53 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:18:53 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 07:18:53 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 07:18:53 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 07:18:53 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 07:18:53 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 07:18:53 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 07:18:53 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 07:18:53 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 07:19:09 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 07:19:09 UTC] PHP Stack trace:
+[26-Jul-2017 07:19:09 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:19:09 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:19:09 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:19:09 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:19:09 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:19:09 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 07:19:09 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 07:19:09 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 07:19:09 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 07:19:09 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 07:19:09 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 07:19:09 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 07:19:09 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: id in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 93
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: category in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 94
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: model in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 95
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: manufacturer in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 96
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: power in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 97
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: release_date in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 98
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: property in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 99
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:30:45 UTC] PHP Notice:  Undefined variable: description in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 100
+[26-Jul-2017 07:30:45 UTC] PHP Stack trace:
+[26-Jul-2017 07:30:45 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:30:45 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:30:45 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:30:45 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:30:45 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:30:45 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:30:45 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:30:45 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:30:45 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:30:45 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: id in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 93
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: category in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 94
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: model in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 95
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: manufacturer in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 96
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: power in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 97
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: release_date in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 98
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: property in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 99
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:27 UTC] PHP Notice:  Undefined variable: description in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 100
+[26-Jul-2017 07:41:27 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:27 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:27 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:27 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:27 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:27 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:27 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:27 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:27 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:27 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:27 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: id in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 93
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: category in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 94
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: model in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 95
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: manufacturer in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 96
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: power in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 97
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: release_date in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 98
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: property in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 99
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:41:41 UTC] PHP Notice:  Undefined variable: description in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 100
+[26-Jul-2017 07:41:41 UTC] PHP Stack trace:
+[26-Jul-2017 07:41:41 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:41:41 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:41:41 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:41:41 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:41:41 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:41:41 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:41:41 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:41:41 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:41:41 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:41:41 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: id in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 93
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: category in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 94
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: model in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 95
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: manufacturer in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 96
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: power in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 97
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: release_date in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 98
+[26-Jul-2017 07:55:16 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:16 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:16 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:16 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:16 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:16 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:16 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:16 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:16 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:16 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:16 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:16 UTC] PHP Notice:  Undefined variable: property in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 99
+[26-Jul-2017 07:55:17 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:17 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:17 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:17 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:17 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:17 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:17 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:17 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:17 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:17 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:17 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:17 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:17 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 07:55:17 UTC] PHP Notice:  Undefined variable: description in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\Device.php on line 100
+[26-Jul-2017 07:55:17 UTC] PHP Stack trace:
+[26-Jul-2017 07:55:17 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 07:55:17 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 07:55:17 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 07:55:17 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:17 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:17 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 07:55:17 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 07:55:17 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 07:55:17 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 07:55:17 UTC] PHP  10. Application\Controller\WriteController->addAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 07:55:17 UTC] PHP  11. Application\Model\ZendDbCommand->insertDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:68
+[26-Jul-2017 07:55:17 UTC] PHP  12. Application\Model\Device->toArray() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php:38
+[26-Jul-2017 08:51:06 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 08:51:06 UTC] PHP Stack trace:
+[26-Jul-2017 08:51:06 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 08:51:06 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 08:51:06 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 08:51:06 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 08:51:06 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 08:51:06 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 08:51:06 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 08:51:06 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 08:51:06 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 08:51:06 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 08:51:06 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 08:51:06 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 08:51:06 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 08:52:54 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 08:52:54 UTC] PHP Stack trace:
+[26-Jul-2017 08:52:54 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 08:52:54 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 08:52:54 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 08:52:54 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 08:52:54 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 08:52:54 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 08:52:54 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 08:52:54 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 08:52:54 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 08:52:54 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 08:52:54 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 08:52:54 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 08:52:54 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 09:46:44 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 09:46:44 UTC] PHP Stack trace:
+[26-Jul-2017 09:46:44 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:46:44 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:46:44 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:46:44 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:46:44 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:46:44 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 09:46:44 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 09:46:44 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 09:46:44 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 09:46:44 UTC] PHP  10. spl_autoload_call() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:46:44 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:46:44 UTC] PHP  12. Composer\Autoload\includeFile() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 09:46:44 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 09:47:21 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 09:47:21 UTC] PHP Stack trace:
+[26-Jul-2017 09:47:21 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:47:21 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:47:21 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:47:21 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:47:21 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:47:21 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get($name = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 09:47:21 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get($name = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 09:47:21 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate($resolvedName = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 09:47:21 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke($container = *uninitialized*, $requestedName = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 09:47:21 UTC] PHP  10. spl_autoload_call(*uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:47:21 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:47:21 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 09:47:21 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 09:47:49 UTC] PHP Fatal error:  Class 'Zend\MVC\Controller\AbstractActionController' not found in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\DeleteController.php on line 11
+[26-Jul-2017 09:47:49 UTC] PHP Stack trace:
+[26-Jul-2017 09:47:49 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:47:49 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:47:49 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:47:49 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:47:49 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:47:49 UTC] PHP   6. Zend\Mvc\Controller\ControllerManager->get($name = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:102
+[26-Jul-2017 09:47:49 UTC] PHP   7. Zend\Mvc\Controller\ControllerManager->get($name = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\AbstractPluginManager.php:141
+[26-Jul-2017 09:47:49 UTC] PHP   8. Zend\Mvc\Controller\ControllerManager->doCreate($resolvedName = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:200
+[26-Jul-2017 09:47:49 UTC] PHP   9. Application\Controller\Factory\DeleteControllerFactory->__invoke($container = *uninitialized*, $requestedName = *uninitialized*, $options = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-servicemanager\src\ServiceManager.php:758
+[26-Jul-2017 09:47:49 UTC] PHP  10. spl_autoload_call(*uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:47:49 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\Factory\DeleteControllerFactory.php:13
+[26-Jul-2017 09:47:49 UTC] PHP  12. Composer\Autoload\includeFile($file = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:322
+[26-Jul-2017 09:47:49 UTC] PHP  13. include() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\composer\ClassLoader.php:444
+[26-Jul-2017 09:53:11 UTC] PHP Notice:  Undefined property: Application\Controller\DeleteController::$form in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php on line 80
+[26-Jul-2017 09:53:11 UTC] PHP Stack trace:
+[26-Jul-2017 09:53:11 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:53:11 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:53:11 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:53:11 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:11 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:11 UTC] PHP   6. Application\Controller\DeleteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 09:53:11 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 09:53:11 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:11 UTC] PHP   9. Application\Controller\DeleteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:12 UTC] PHP Notice:  Undefined property: Application\Controller\DeleteController::$form in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php on line 80
+[26-Jul-2017 09:53:12 UTC] PHP Stack trace:
+[26-Jul-2017 09:53:12 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:53:12 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:53:12 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:53:12 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:12 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:12 UTC] PHP   6. Application\Controller\DeleteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 09:53:12 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 09:53:12 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:12 UTC] PHP   9. Application\Controller\DeleteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:13 UTC] PHP Notice:  Undefined property: Application\Controller\DeleteController::$form in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php on line 80
+[26-Jul-2017 09:53:13 UTC] PHP Stack trace:
+[26-Jul-2017 09:53:13 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:53:13 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:53:13 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:53:13 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:13 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:13 UTC] PHP   6. Application\Controller\DeleteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 09:53:13 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 09:53:13 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:13 UTC] PHP   9. Application\Controller\DeleteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:13 UTC] PHP Notice:  Undefined property: Application\Controller\DeleteController::$form in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php on line 80
+[26-Jul-2017 09:53:13 UTC] PHP Stack trace:
+[26-Jul-2017 09:53:13 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:53:13 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:53:13 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:53:13 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:13 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:13 UTC] PHP   6. Application\Controller\DeleteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 09:53:13 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 09:53:13 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:13 UTC] PHP   9. Application\Controller\DeleteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:14 UTC] PHP Notice:  Undefined property: Application\Controller\DeleteController::$form in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php on line 80
+[26-Jul-2017 09:53:14 UTC] PHP Stack trace:
+[26-Jul-2017 09:53:14 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 09:53:14 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 09:53:14 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 09:53:14 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:14 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 09:53:14 UTC] PHP   6. Application\Controller\DeleteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 09:53:14 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 09:53:14 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 09:53:14 UTC] PHP   9. Application\Controller\DeleteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:21:19 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 10:21:19 UTC] PHP Stack trace:
+[26-Jul-2017 10:21:19 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 10:21:19 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 10:21:19 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 10:21:19 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:21:19 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:21:19 UTC] PHP   6. Application\Controller\WriteController->dispatch($request = *uninitialized*, $response = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 10:21:19 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil($callback = *uninitialized*, $event = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 10:21:19 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners($event = *uninitialized*, $callback = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:21:19 UTC] PHP   9. Application\Controller\WriteController->onDispatch($e = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:21:19 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 10:21:19 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice($device = *uninitialized*) C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 10:31:44 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 10:31:44 UTC] PHP Stack trace:
+[26-Jul-2017 10:31:44 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 10:31:44 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 10:31:44 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 10:31:44 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:31:44 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:31:44 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 10:31:44 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 10:31:44 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:31:44 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:31:44 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 10:31:44 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 10:34:51 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 10:34:51 UTC] PHP Stack trace:
+[26-Jul-2017 10:34:51 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 10:34:51 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 10:34:51 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 10:34:51 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:34:51 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:34:51 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 10:34:51 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 10:34:51 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:34:51 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:34:51 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 10:34:51 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 10:35:08 UTC] PHP Notice:  Undefined index: device in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-form\src\Form.php on line 364
+[26-Jul-2017 10:35:08 UTC] PHP Stack trace:
+[26-Jul-2017 10:35:08 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 10:35:08 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 10:35:08 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 10:35:08 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:35:08 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:35:08 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 10:35:08 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 10:35:08 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:35:08 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:35:08 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 10:35:08 UTC] PHP  11. Application\Form\DeviceForm->isValid() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:97
+[26-Jul-2017 10:35:08 UTC] PHP  12. Application\Form\DeviceForm->bindValues() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-form\src\Form.php:517
+[26-Jul-2017 10:40:35 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 10:40:35 UTC] PHP Stack trace:
+[26-Jul-2017 10:40:35 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 10:40:35 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 10:40:35 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 10:40:35 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:40:35 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:40:35 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 10:40:35 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 10:40:35 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 10:40:35 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 10:40:35 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 10:40:35 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 12:52:04 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 12:52:04 UTC] PHP Stack trace:
+[26-Jul-2017 12:52:04 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 12:52:04 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 12:52:04 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 12:52:04 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 12:52:04 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 12:52:04 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 12:52:04 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 12:52:04 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 12:52:04 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 12:52:04 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 12:52:04 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 12:57:05 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 12:57:05 UTC] PHP Stack trace:
+[26-Jul-2017 12:57:05 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 12:57:05 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 12:57:05 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 12:57:05 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 12:57:05 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 12:57:05 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 12:57:05 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 12:57:05 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 12:57:05 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 12:57:05 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 12:57:05 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 13:03:57 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 13:03:57 UTC] PHP Stack trace:
+[26-Jul-2017 13:03:57 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 13:03:57 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 13:03:57 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 13:03:57 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:03:57 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:03:57 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 13:03:57 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 13:03:57 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:03:57 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:03:57 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 13:03:57 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 13:04:44 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 13:04:44 UTC] PHP Stack trace:
+[26-Jul-2017 13:04:44 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 13:04:44 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 13:04:44 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 13:04:44 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:04:44 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:04:44 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 13:04:44 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 13:04:44 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:04:44 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:04:44 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 13:04:44 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101
+[26-Jul-2017 13:07:28 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Model\ZendDbCommand.php on line 73
+[26-Jul-2017 13:07:28 UTC] PHP Stack trace:
+[26-Jul-2017 13:07:28 UTC] PHP   1. {main}() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:0
+[26-Jul-2017 13:07:28 UTC] PHP   2. Zend\Mvc\Application->run() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\public\index.php:40
+[26-Jul-2017 13:07:28 UTC] PHP   3. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Application.php:332
+[26-Jul-2017 13:07:28 UTC] PHP   4. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:07:28 UTC] PHP   5. Zend\Mvc\DispatchListener->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:07:28 UTC] PHP   6. Application\Controller\WriteController->dispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\DispatchListener.php:138
+[26-Jul-2017 13:07:28 UTC] PHP   7. Zend\EventManager\EventManager->triggerEventUntil() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractController.php:106
+[26-Jul-2017 13:07:28 UTC] PHP   8. Zend\EventManager\EventManager->triggerListeners() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:179
+[26-Jul-2017 13:07:28 UTC] PHP   9. Application\Controller\WriteController->onDispatch() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-eventmanager\src\EventManager.php:322
+[26-Jul-2017 13:07:28 UTC] PHP  10. Application\Controller\WriteController->editAction() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\vendor\zendframework\zend-mvc\src\Controller\AbstractActionController.php:78
+[26-Jul-2017 13:07:28 UTC] PHP  11. Application\Model\ZendDbCommand->updateDevice() C:\Users\amykhailenko\Documents\NetBeansProjects\kw-h.info\module\Application\src\Controller\WriteController.php:101

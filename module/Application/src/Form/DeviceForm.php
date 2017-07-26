@@ -5,6 +5,11 @@ use Zend\Form\Form;
 
 class DeviceForm extends Form
 {
+    public function __construct() {
+        $this->setAttribute('method', 'post');       
+    }
+
+    
     public function init() {
         $this->add([
             'name' => 'device',
