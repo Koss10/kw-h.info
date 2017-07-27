@@ -1,4 +1,5 @@
 <?php
+
 namespace Application\Model;
 
 use RuntimeException;
@@ -9,16 +10,16 @@ use Zend\Db\Sql\Insert;
 use Zend\Db\Sql\Update;
 use Zend\Db\Sql\Sql;
 
-class ZendDbCommand implements DeviceCommandInterface
-{
+class ZendDbCommand implements DeviceCommandInterface {
+
     private $db;
-    
+
     function __construct(AdapterInterface $db) {
         $this->db = $db;
     }
-    
+
     public function deleteDevice(Device $device) {
-        if(! $device->getId()){
+        if (!$device->getId()) {
             throw new RuntimeException('Cannot delete device: missing identifier');
         }
         $delete = new Delete('t_catalog');
@@ -26,8 +27,8 @@ class ZendDbCommand implements DeviceCommandInterface
         $sql = new Sql($this->db);
         $stmt = $sql->prepareStatementForSqlObject($delete);
         $result = $stmt->execute();
-        
-        if(! $result instanceof ResultInterface){
+
+        if (!$result instanceof ResultInterface) {
             return FALSE;
         }
         return TRUE;
@@ -39,28 +40,21 @@ class ZendDbCommand implements DeviceCommandInterface
         $sql = new Sql($this->db);
         $stmt = $sql->prepareStatementForSqlObject($insert);
         $result = $stmt->execute();
-        
-        if(! $result instanceof ResultInterface){
+
+        if (!$result instanceof ResultInterface) {
             throw new RuntimeException(
-                    'Database error occurred during device insert operation'
-                    );
+            'Database error occurred during device insert operation'
+            );
         }
         $id = $result->getGeneratedValue();
-        
+
         return new Device(
-                $device->getId(), 
-                $device->getCategory(), 
-                $device->getModel(), 
-                $device->getManufacturer(), 
-                $device->getPower(), 
-                $device->getRelease_date(), 
-                $device->getProperty(), 
-                $device->getDescription()
-                );
+                $id, $device->getCategory(), $device->getModel(), $device->getManufacturer(), $device->getPower(), $device->getRelease_date(), $device->getProperty(), $device->getDescription()
+        );
     }
 
     public function updateDevice(Device $device) {
-        if(! $device->getId()){
+        if (!$device->getId()) {
             throw new RuntimeException('Cannot update device: missing identifier');
         }
         $update = new Update('t_catalog');
@@ -69,11 +63,11 @@ class ZendDbCommand implements DeviceCommandInterface
         $sql = new Sql($this->db);
         $stmt = $sql->prepareStatementForSqlObject($update);
         $result = $stmt->execute();
-        
-        if(! result instanceof ResultInterface){
+
+        if (!$result instanceof ResultInterface) {
             throw RuntimeException(
                     'Database error occurred during device update operation'
-                    );
+            );
         }
         return $device;
     }

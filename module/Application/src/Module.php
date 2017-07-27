@@ -3,6 +3,7 @@ namespace Application;
 
 use Zend\Mvc\MvcEvent;
 use Zend\Session\SessionManager;
+use Zend\ModuleManager\ModuleManager;
 
 class Module
 {

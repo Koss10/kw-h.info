@@ -6,9 +6,9 @@ use Zend\Form\Form;
 class DeviceForm extends Form
 {
     public function __construct() {
+        parent::__construct('device-form');
         $this->setAttribute('method', 'post');       
     }
-
     
     public function init() {
         $this->add([

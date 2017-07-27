@@ -3,8 +3,7 @@
 <?php
 $form = $this->form;
 $form->setAttribute('action', $this->url());
-$form->setAttribute('method', 'POST');
 echo $this->partial('application/write/form', [
     'form' => $form,
-    'submitLabel' => 'Insert new instruction',
+    'submitLabel' => 'Insert new device',
 ]);

@@ -24,6 +24,7 @@ class WriteController extends AbstractActionController {
     }
 
     public function indexAction() {
+
         return new ViewModel([
             'devices' => $this->repository->findAllDevices(),
         ]);
@@ -62,8 +63,6 @@ class WriteController extends AbstractActionController {
         try {
             $device = $this->command->insertDevice($device);
         } catch (\Exception $ex) {
-            // An exception occurred; we may want to log this later and/or
-            // report it to the user. For now, we'll just re-throw.
             throw $ex;
         }
 
